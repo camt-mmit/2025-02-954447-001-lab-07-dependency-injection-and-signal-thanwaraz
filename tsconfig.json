@@ -19,9 +19,7 @@
     "enableI18nLegacyMessageIdFormat": false,
     "strictInjectionParameters": true,
     "strictInputAccessModifiers": true,
-    "strictTemplates": true,
-    "exactOptionalPropertyTypes": true,
-    "strictStandalone": true
+    "strictTemplates": true
   },
   "files": [],
   "references": [
