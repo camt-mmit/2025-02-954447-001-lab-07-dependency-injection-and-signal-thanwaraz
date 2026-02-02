@@ -1,0 +1,12 @@
+<nav>
+  <button (click)="addSection()" class="app-add-btn">Section</button>
+</nav>
+@for (section of sections(); track section) {
+  <app-dynamic-input
+    [number]="$index + 1"
+    [section]="section"
+    [removable]="$count > 1"
+    (sectionChange)="changeSection($index, $event)"
+    (remove)="removeSection($index)"
+  />
+}
