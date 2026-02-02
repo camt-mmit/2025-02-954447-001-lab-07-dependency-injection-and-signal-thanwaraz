@@ -8,4 +8,5 @@ export const routes: Routes = [
     },
 
     { path: 'example', loadChildren: () => import('./example/routes') },
+    { path: 'assignment', loadChildren: () => import('./assignment/routes') }
 ];
